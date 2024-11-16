@@ -1,0 +1,65 @@
+// style global
+.layout {
+    // min-height: calc(100vh - 61.597px);
+    min-height: 100vh;
+  }
+  
+  .container-nav-bar {
+    // background-color: #001628;
+    background-color: #1E2228;
+    padding: 12px;
+    .content-logo {
+      display: flex;
+      justify-content: center;
+      // gap: 28px;
+      align-items: center;
+      height: 26px;
+      .logo-supesa { 
+        width: 145px;
+        object-fit: contain;
+      }
+      .logo-cencosud {
+        width: 70px;
+        object-fit: contain;
+      }
+      .logo-tambo {
+        width: 90px;
+        object-fit: contain;
+      }
+      .logo-tottus {
+        width: 120px;
+        object-fit: contain;
+      }
+      .logo-tottus-white {
+        width: 120px;
+        object-fit: contain;
+      }
+    }
+  }
+  
+  .container {
+    margin: 12px;
+  }
+  
+  //collapse
+  .ant-layout.ant-layout-has-sider > .ant-layout {
+    margin: 12px;
+    background-color: #fff;
+  }
+  
+  ::ng-deep .ant-layout-sider-zero-width-trigger {
+    position: absolute;
+    top: 4px;
+    right: -32px;
+    z-index: 1;
+    width: 36px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    background: rgba(0, 21, 41, 0.4);
+    border-radius: 0px 24px 24px 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }

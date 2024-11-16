@@ -1,0 +1,20 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NzIconModule } from 'ng-zorro-antd/icon';
+import { NzButtonModule } from 'ng-zorro-antd/button';
+
+import { AuthRoutingModule } from './auth-routing.module';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
+
+@NgModule({
+  declarations: [LoginPageComponent],
+  imports: [
+    CommonModule,
+    AuthRoutingModule,
+    ReactiveFormsModule,
+    NzIconModule,
+    NzButtonModule,
+  ]
+})
+export class AuthModule { }

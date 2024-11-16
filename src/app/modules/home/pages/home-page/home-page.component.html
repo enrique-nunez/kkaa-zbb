@@ -1,0 +1,26 @@
+<!-- <div class="container-nav-bar">
+    <div class="content-logo">
+        <img src="assets/logo_backus.webp" class="logo-tottus" alt="Imagen no encontrado">
+        <img src="assets/tottus.svg" class="logo-tottus-white" alt="Imagen no encontrado">
+    </div>
+</div> -->
+<nz-layout class="layout">
+    <nz-sider
+      nzCollapsible
+      [nzCollapsedWidth]="0"
+      *ngIf="shouldAddBreakpoint(); else siderWithoutBreakpoint"
+      nzBreakpoint="lg"
+    >
+        <app-side-bar />
+    </nz-sider>
+    <ng-template #siderWithoutBreakpoint>
+        <nz-sider nzCollapsible [nzCollapsedWidth]="0">
+            <app-side-bar />
+        </nz-sider>
+    </ng-template>
+    <nz-layout>
+        <div class="container">
+            <router-outlet></router-outlet>
+        </div>
+    </nz-layout>
+</nz-layout>

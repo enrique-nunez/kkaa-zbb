@@ -1,0 +1,32 @@
+<ul nz-menu nzTheme="dark" nzMode="inline">
+    <!-- <li nz-submenu nzTitle="OC" nzIcon="product" >
+      <ul>
+        <li nz-menu-item [routerLink]="['/supesa']">Supesa</li>
+        <li nz-menu-item [routerLink]="['/cencosud']">Cencosud</li>
+        <li nz-menu-item [routerLink]="['/tambo']">Tambo</li>
+      </ul>
+    </li> -->
+  
+    <!-- <li nz-menu-item [routerLink]="['/configuracion']">
+      <span nz-icon nzType="audit" nzTheme="outline"></span>
+      <span>Configuraciones</span>
+    </li>
+    <li nz-menu-item [routerLink]="['/mantenedor-tabla']">
+      <span nz-icon nzType="audit" nzTheme="outline"></span>
+      <span>Mantenedor de Tablas</span>
+    </li>
+    <li nz-menu-item [routerLink]="['/usuarios']">
+      <span nz-icon nzType="user" nzTheme="outline"></span>
+      <span>Usuarios</span>
+    </li>
+    -->
+    <li nz-menu-item [routerLink]="['/ejemplo-page']">
+        <span nz-icon nzType="apple" nzTheme="outline"></span>
+      <span>Example</span>
+    </li>
+
+    <li nz-menu-item (click)="logout()">
+      <span nz-icon nzType="poweroff"></span>
+      <span>Cerrar Sesión</span>
+    </li>
+  </ul>

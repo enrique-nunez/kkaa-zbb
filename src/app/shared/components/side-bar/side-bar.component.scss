@@ -1,0 +1,29 @@
+// inicio de sidebar
+.logo {
+    height: 50px;
+    // background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+    text-align: center;
+    img {
+      width: 120px;
+      text-align: center;
+    }
+  }
+  .inner-content {
+    padding: 24px;
+    background: #fff;
+    min-height: 360px;
+  }
+  
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trigger:hover {
+    color: #1890ff;
+  }
+  // fin de sidebar

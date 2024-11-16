@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "usuario_id": "bdr",
+            "nombres": "OJEDA VELA, TONY MANUEL",
+            "rol": "bdr",
+            "estado": 1,
+            "usuario_id_creacion": "admin",
+            "password": "123"
+        },
+        {
+            "usuario_id": "supervisor",
+            "nombres": "ALANIA RAMOS, JACOB",
+            "rol": "supervisor",
+            "estado": 1,
+            "usuario_id_creacion": "admin",
+            "password": "123"
+        },
+        {
+            "usuario_id": "admin",
+            "nombres": "MIRAVAL GOMEZ, ABEL SAUL",
+            "rol": "admin",
+            "estado": 1,
+            "usuario_id_creacion": "admin",
+            "password": "123"
+        }
+    ]
+}
